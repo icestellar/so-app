@@ -38,6 +38,16 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'brincadeira',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../brincadeira/brincadeira.module').then(m => m.BrincadeiraPageModule)
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

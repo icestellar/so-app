@@ -1,26 +1,94 @@
 <ion-header>
   <ion-toolbar>
-  <ion-title color="success">
-      Computação Verde
+    <div class="w3-center">
+        <ion-title color="primary">
+      <b style="color: green;">Computação Verde</b>
     </ion-title>
+  </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-card>
-        <img src="/assets/capa.jpg" alt="" />
-        <ion-card-header>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-          <ion-card-title>Card Title</ion-card-title>
-        </ion-card-header>
+  <div class="conteudo-slide">
+    <ion-slides>
+      <ion-slide>
+          <ion-card class="welcome-card">
+              <img src="/assets/ti-verde.png" alt="" />
+              <ion-card-header>
+              </ion-card-header>
+                <div class="w3-center">
+              <ion-card-title><b>Breve introdução</b></ion-card-title> 
+            </div>
+            <ion-card-content>
+              <div style="width: 100%; text-align: justify;">
+               <p class="p-conteudo">
+                "A computação verde (ou TI Verde) é o uso de ações responsáveis e ecológicamente corretas dos 
+                computadores e seus recursos. Em termos mais amplos, a computação verde também é definida como 
+                o estudo de projeto, fabricação / engenharia, uso e descarte de dispositivos de computação, 
+                de maneira que seu impacto ambiental seja reduzido." (Tradução livre)
       
-        <ion-card-content>
-          Keep close to Nature's heart... and break clear away, once in awhile,
-          and climb a mountain or spend a week in the woods. Wash your spirit clean.
-        </ion-card-content>
-      </ion-card>
-  <div class="ion-text-center" style="margin-top: 10px;"><b>TITULO</b></div>
-  <div class="content">
-    <p>coisinhaaaaaaaaaaaaaaaaaaaaaaaas</p>
-</div>
-</ion-content>
+              </p>
+              <p class="p-conteudo">
+                  <i>
+                      A TI Verde também pode ser definida como um conjunto de práticas capazes de garantir  
+                      que a atividade de uma empresa gere menor impacto ambiental.(PHELIPE, 2010).
+                  </i>
+              </p>
+
+              <p class="p-conteudo">
+
+              </p>
+              </div>
+              </ion-card-content>
+            </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="welcome-card">
+            <img src="/assets/ti-verde.png" alt="" />
+            <ion-card-header>
+            </ion-card-header>
+              <div class="w3-center">
+            <ion-card-title><b>Um pouco mais sobre</b></ion-card-title> 
+          </div>
+          <ion-card-content>
+            <div style="width: 100%; text-align: justify;">
+             <p class="p-conteudo">
+              A importância para os negócios, sociedade e futuro do planeta faz com que a TI Verde ganhe cada vez 
+              mais espaço e destaque para a comunidade técnica (profissionais de TI) que, através de pesquisa e 
+              desenvolvimento, atuarão diretamente no sucesso e na inovação tecnológica que auxilie o desenvolvimento 
+              sustentável.<br /><br />
+             </p>
+
+             <p class="p-conteudo">
+             As práticas de TI Verde podem ser divididas em três níveis:<br />
+             – TI Verde de incrementação tática;<br />
+             – TI Verde Estratégico;<br />
+             – Deep  IT (TI Verde “a fundo”).<br /><br />
+
+             Você pode conhecê-las melhor acessando
+             <a href="http://www.guiadohardware.net/arquivos/TI-Verde.pdf" target="_system" title="TI Verde: conceitos e práticas">TI Verde: conceitos e práticas</a> 
+             (Fonte: Guia do Hardware)
+            </p>
+    
+
+            </div>
+            </ion-card-content>
+          </ion-card>
+      </ion-slide>
+    <ion-slide>
+        <ion-card class="welcome-card">
+            <img src="/assets/ubq2.jpg" alt="" />
+            <ion-card-header>
+              <ion-card-subtitle>Grupo 3 - Álvaro Prado & Caroline Victória</ion-card-subtitle>
+              <ion-card-title>Computação para quem não gosta de programar</ion-card-title> 
+            </ion-card-header>
+            <ion-card-content>
+              <p>Também conhecido como <b style="color: green;">Computação Verde</b> e <b>Computação Ubíqua</b></p>
+                  <ion-button (click)="openBlank()">Open Blank</ion-button>
+                  <ion-button (click)="openSystem()">Open System</ion-button>
+            </ion-card-content>
+          </ion-card>
+    </ion-slide>
+    </ion-slides>
+  </div>
+  </ion-content>

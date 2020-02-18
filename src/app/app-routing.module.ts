@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'references',
     loadChildren: () => import('./references/references.module').then( m => m.ReferencesPageModule)
+  },
+  {
+    path: 'brincadeira',
+    loadChildren: () => import('./brincadeira/brincadeira.module').then( m => m.BrincadeiraPageModule)
   }
 ];
 @NgModule({
